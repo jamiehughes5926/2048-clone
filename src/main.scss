@@ -6,7 +6,7 @@
 body {
   display: flex;
   background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgba(0,212,255,1) 100%);
+background: #bde0fe;
   color: white;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +28,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgb
   width: 440px;
   height: 440px;
   padding: 5px;
-  background-color: #57407c;
+  background-color: #ffafcc;
   border-radius: 7px;
   outline: none;
   position: relative;
@@ -48,8 +48,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgb
 }
 
 .resetButton {
-  background-color: #3d2963;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #bde0fe;
+  color: white;
   cursor: pointer;
   font-size: 25px;
   padding: 10px 20px;
@@ -62,12 +62,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgb
 }
 
 .score-header {
-  font-size: 50%;
+  font-size: 80%;
 }
 
 .score-box {
-  background-color: #3d2963;
-  color: rgba(255, 255, 255, 0.5);
+  background-color: #bde0fe;
+  color: white;
   min-width: 50px;
   width: 70px;
   padding: 5px 15px;
@@ -88,7 +88,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,64,124,1) 47%, rgb
   border-radius: 7px;
   font-family: "Clear Sans";
   color: #766;
-  background-color: #3d2963;
+  background-color: #cdb4db;
 }
 
 .tile0 {
